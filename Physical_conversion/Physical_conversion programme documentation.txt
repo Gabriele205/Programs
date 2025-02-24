@@ -1,0 +1,102 @@
+Unit Conversion Programme Documentation
+Description
+This programme allows users to convert between different physical units of measurement, including temperatures, lengths, volumes, masses, times, pressures and velocities. It also keeps track of the history of conversions made by the user.
+
+Functionality
+Temperature conversion:
+
+Celsius to Fahrenheit
+Fahrenheit to Celsius
+Celsius to Kelvin
+Kelvin to Celsius
+Fahrenheit to Kelvin
+Kelvin to Fahrenheit
+
+Conversion of Physical Measurements:
+
+Length (km, hm, dam, m, dm, cm, mm, in, ft)
+Volume (m^3, kl, hl, dal, l, dl, cl, ml)
+Mass (kg, hg, dag, g, dg, cg, mg)
+Time (s, min, h, week, month, year)
+Pressure (Pa, kPa, MPa, bar, atm)
+Speed (m/s, km/h, mph)
+
+Conversion History:
+
+Displays all conversions performed during programme execution.
+
+Code Structure
+Converter class
+The Converter class contains static methods for handling conversions and the conversion history.
+
+Methods
+temperature_conversion(sub_option, temperature): Converts the temperature from one unit to another according to the given option.
+convert_measurements(sub_option, measurements, unit_measure_from, unit_measure_to): Converts physical measurements between different units.
+add_to_history(conversion): Adds a conversion to the history.
+show_history(): Shows all conversions recorded in the history.
+
+Main Functionality
+The main programme provides an interactive menu for users, allowing them to choose between temperature conversion, conversion of physical measurements and displaying the conversion history.
+
+Requirements
+Python 3.x
+No external library required
+
+Conclusions
+This unit conversion program is a useful tool for anyone who needs to perform physical measurement conversions quickly and easily. The ability to keep track of conversions performed adds another level of functionality.
+
+--------------------------------------------------------------------------------------------
+Documentazione del Programma di Conversione di Unità
+Descrizione
+Questo programma permette agli utenti di convertire tra diverse unità di misura fisica, incluse temperature, lunghezze, volumi, masse, tempi, pressioni e velocità. Inoltre, tiene traccia della cronologia delle conversioni effettuate dall'utente.
+
+Funzionalità
+Conversione della Temperatura:
+
+Da Celsius a Fahrenheit
+Da Fahrenheit a Celsius
+Da Celsius a Kelvin
+Da Kelvin a Celsius
+Da Fahrenheit a Kelvin
+Da Kelvin a Fahrenheit
+
+Conversione di Misure Fisiche:
+
+Lunghezza (metri, chilometri, ecc.)
+Volume (litri, millilitri, ecc.)
+Massa (grammi, chilogrammi, ecc.)
+Tempo (secondi, minuti, ore, ecc.)
+Pressione (Pascal, bar, atm)
+Velocità (m/s, km/h, mph)
+Cronologia delle Conversioni:
+
+Visualizza tutte le conversioni effettuate durante l'esecuzione del programma.
+Struttura del Codice
+Classe Converter
+La classe Converter contiene metodi statici per gestire le conversioni e la cronologia delle conversioni.
+
+Metodi
+temperature_conversion(sub_option, temperature): Converte la temperatura da un'unità a un'altra in base all'opzione fornita.
+convert_measurements(sub_option, misure, unit_measure_from, unit_measure_to): Converte misure fisiche tra diverse unità.
+add_to_history(conversion): Aggiunge una conversione alla cronologia.
+show_history(): Mostra tutte le conversioni registrate nella cronologia.
+Funzionalità Principale
+Il programma principale fornisce un menu interattivo per gli utenti, consentendo di scegliere tra la conversione della temperatura, la conversione di misure fisiche e la visualizzazione della cronologia delle conversioni.
+
+Esempio di Uso
+Avviare il programma.
+Selezionare un'opzione dal menu principale.
+Seguire le istruzioni per inserire i dati richiesti (ad esempio, la temperatura o la misura).
+Visualizzare il risultato della conversione e la cronologia delle conversioni.
+Gestione degli Errori
+Il programma include controlli di validità per garantire che gli input degli utenti siano corretti. In caso di input non valido, viene fornito un messaggio di errore appropriato.
+
+Requisiti
+Python 3.x
+Nessuna libreria esterna necessaria
+
+Conclusioni
+Questo programma di conversione di unità è uno strumento utile per chiunque abbia bisogno di effettuare conversioni di misure fisiche in modo semplice e rapido. La possibilità di tenere traccia delle conversioni effettuate aggiunge un ulteriore livello di funzionalità.
+
+
+
